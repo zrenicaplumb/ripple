@@ -74,6 +74,10 @@ html {-webkit-text-size-adjust: none; }
 	margin-top:40px;
 	cursor: pointer;
 }
+#sign-up:hover{
+	background-color:#fff;
+	color:#5DBCD8;
+}
 
 
 
@@ -155,9 +159,7 @@ html {-webkit-text-size-adjust: none; }
 
 .green-div p{
 	line-height: 1.2em;
-	padding-bottom:40px;
-	padding-left:30px;
-	padding-right:30px;
+	padding:10px 30px 40px 30px;
 }
 
 .bottom-div{
@@ -185,7 +187,7 @@ html {-webkit-text-size-adjust: none; }
 	margin:auto;
 }
 
-.bottom-div form input{
+.bottom-div input{
 	
 	width:90%;
 	border-radius: 8px;
@@ -206,7 +208,7 @@ html {-webkit-text-size-adjust: none; }
 .bottom-div h5{
 	color:#85CDE1;
 	font-size:2.2em;
-	margin-top:120px;
+	margin-top:70px;
 	margin-bottom: 5px;
 }
 
@@ -218,7 +220,7 @@ button#sign-me-up{
 	height:40px;
 	color:#85CDE1;
 	font-size:18px;
-	margin-top:10px;
+	
 	margin-bottom:50px;
 	cursor: pointer;
 }
@@ -226,8 +228,7 @@ button#sign-me-up:hover{
 	background:#5DBCD8;
 	color:#fff;
 	border:3px solid #5DBCD8;
-	transition: background .4s;
-	transition: color .3s;
+
 
 }
 footer.row.clearfix{
@@ -236,7 +237,9 @@ footer.row.clearfix{
 }
 .yo h5{
 	color:black;
+	margin-bottom: 10px;
 }
+
 
 
 

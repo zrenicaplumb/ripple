@@ -58,9 +58,7 @@
 		
 	}
 
-	#phone-img img{
-		
-	}
+	
 
 	.blue-wrap-inner{
 		width:85%;
@@ -69,30 +67,21 @@
 	}
 
 	.green-div img{
-		display: inline;
-		width: 245px;
-		margin-bottom:100px;
-
-	}
-
-	.green-div-phone-wrap{
-		padding-top:100px;
-		
 		float:right;
+		margin:40px 40px 20px 30px;
+
 	}
+	.green-div.clearfix{
+		padding: 50px;
+    	padding-bottom: 60px;
+	}
+
+	
 
 	.green-inner-text{
+		padding-top:180px;
+
 		
-		width:60%;
-		
-		float:right;
-		letter-spacing: 1px;
-		
-		
-		text-align: right;
-		margin-top:280px;
-		margin-right:50px;
-		margin-left:30px;
 	}
 
 	#tablet-h4{
@@ -107,10 +96,7 @@
 
 	
 
-	.green-inner-wrap{
-		width:80%;
-		background:red;
-	}
+	
 
 	.green-div h2{
 		display:none;
@@ -120,25 +106,24 @@
 		
 		padding-top:100px;
 	}
+	.bottom-div img{
+	
+	padding-top:50px;
+	padding-bottom:35px;
 
+	}	
 	.bottom-div p{
 		max-width:none;
 	}
 
 	.bottom-inner{
 		
-		width:100%;
+		max-width:1100px;
 		margin:auto;
 		clear:both;
 	}
 
-	.bottom-inner img{
-		
-	}
-
-	.bottom-inner h4{
-		
-	}
+	
 
 	.bottom-inner p{
 		
@@ -163,13 +148,11 @@
 	}
 
 	.bottom-div form input{
-		float:left;
-		margin-left:280px;
+		
+		margin-top:0;
 	}
 
-	button#sign-me-up{
-		float:left;
-	}
+	
 	
 	.yo{
 		clear:both;
@@ -177,11 +160,43 @@
 	}
 	footer{
 	background-color: #3B4042;
-	padding:30px;
+	padding:50px;
 
 
 	}
 	footer.row.clearfix{
 	display: block;
 }
+	footer img{
+		width:50px;
+	}
+	.blah{
+	margin: 2% auto;
+	margin-top:0;
+	
+	
+	
+	}	
+	#logo-circle-footer{
+		width:40px;
+		margin-bottom:10px;
+	}
+	#logo-text-footer{
+		width:80px;
+		padding:0;
+		margin-bottom:10px;
+	}
+	.footer-box h2{
+		font-size:1.2em;
+		margin-bottom:10px;
+		margin-top:10px;
+	}
+	.footer-box{
+		padding:16px;
+		float:left;
+		width:33.33333%;
+		text-align: center;
+	}
+	
+
 }
