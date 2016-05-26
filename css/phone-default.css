@@ -91,7 +91,7 @@ html {-webkit-text-size-adjust: none; }
 }
 
 .experience-div p{
-	max-width:98%;
+	max-width:85%;
 	padding:2%;
 	margin:auto;
 	line-height: 1.4em;
@@ -111,10 +111,18 @@ html {-webkit-text-size-adjust: none; }
 }
 
 .green-div{
-	background-color:#6FCF97;
+	
 	color:#fff;
 	text-align: center;
+	background-image:url("../images/wood-background.png");
+	background-repeat: no-repeat;
+	
+	
+	background-size: cover;
 
+}
+.green-inner-text{
+	text-shadow: 1px 1px 1px black;
 }
 
 #tablet-h4{
@@ -125,6 +133,7 @@ html {-webkit-text-size-adjust: none; }
 	font-size: 2.3em;
 	
 	margin-bottom:30px;
+	padding:20px;
 	padding-top:30px;
 
 }
@@ -139,16 +148,20 @@ html {-webkit-text-size-adjust: none; }
 
 .green-div h3{
 	font-size:1.4em;
+	padding-left:20px;
+	padding-right:20px;
 
 }
 
 .green-div p{
 	line-height: 1.2em;
 	padding-bottom:40px;
+	padding-left:30px;
+	padding-right:30px;
 }
 
 .bottom-div{
-text-align: center;
+	text-align: center;
 
 
 }
@@ -173,7 +186,7 @@ text-align: center;
 }
 
 .bottom-div form input{
-	background-color:#DADADA;
+	
 	width:90%;
 	border-radius: 8px;
 	height:40px;
@@ -182,7 +195,9 @@ text-align: center;
 	margin-bottom: 20px;
 	font-size: 16px;
 	text-indent: 5px;
-	max-width:450px;
+	max-width:380px;
+	outline:none;
+	border:1px solid #E7E7E7;
 	
 
 	
@@ -207,6 +222,22 @@ button#sign-me-up{
 	margin-bottom:50px;
 	cursor: pointer;
 }
+button#sign-me-up:hover{
+	background:#5DBCD8;
+	color:#fff;
+	border:3px solid #5DBCD8;
+	transition: background .4s;
+	transition: color .3s;
+
+}
+footer.row.clearfix{
+	display: none;
+	color:#fff;
+}
+.yo h5{
+	color:black;
+}
+
 
 
 
